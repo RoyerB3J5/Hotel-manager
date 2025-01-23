@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Administrador de Hotel
 
-## Getting Started
+![Hotel Management](https://via.placeholder.com/800x200.png?text=Hotel+Management+App)
 
-First, run the development server:
+Un sistema avanzado para la gestión eficiente de hoteles. Esta herramienta permite organizar habitaciones, clientes y reservas de manera interactiva, con una interfaz intuitiva y funcional.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ **Funciones Principales**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🏨 **Gestión de Habitaciones**
+- Visualiza la disponibilidad de cuartos por tipo y por piso.
+- Distribución gráfica de las habitaciones mostrando cuáles están disponibles y ocupadas.
+- Realiza check-in de manera rápida y sencilla desde la interfaz principal.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 👤 **Historial de Clientes**
+- Acceso al registro completo de clientes.
+- Búsquedas filtradas por nombre o información relevante.
+- Detalles adicionales disponibles para cada cliente registrado.
 
-## Learn More
+### 🗒 **Reservas**
+- Visualiza futuras reservas y transfiérelas fácilmente a un check-in.
+- Registra nuevas reservas a través de un formulario intuitivo.
 
-To learn more about Next.js, take a look at the following resources:
+### 💡 **Configuraciones**
+- Modifica los cuartos del hotel según necesidades.
+- Agrega o elimina habitaciones.
+- Gestiona los tipos de cuartos disponibles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🌐 **Navegación y Seguridad**
+- Menú interactivo para facilitar el acceso a todas las páginas.
+- Inicio de sesión para proteger las funciones del sistema de usuarios no autorizados.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔧 **Detalles del Proyecto**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Primera Página:**
+   - Tres secciones principales para observar:
+     - Disponibilidad de cuartos por tipo.
+     - Piso donde se encuentra cada cuarto disponible.
+     - Distribución de cuartos por piso (ocupados/disponibles).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Historial de Clientes:**
+   - Registro detallado con filtros por nombre.
+   - Información ampliada de cada cliente bajo demanda.
+
+3. **Página de Reservas:**
+   - Lista de reservas futuras.
+   - Opción para registrar nuevas reservas.
+   - Conversión de reservas a check-in.
+
+4. **Configuraciones:**
+   - Gestiona habitaciones según tipo y disponibilidad.
+   - Agrega y elimina habitaciones de manera fácil.
+
+5. **Seguridad y Navegación:**
+   - Sistema de autenticación para proteger información.
+   - Menú claro e interactivo para navegar entre páginas.
+
+
